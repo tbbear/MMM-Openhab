@@ -1,6 +1,6 @@
-## MMM-SolarDach
+## MMM-Openhab
 
-Up to the minute information about the results of a Suntrol Photovoltaic roof.
+Full control of your Openhab System using .
 
 ## How it works
 
