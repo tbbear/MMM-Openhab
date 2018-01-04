@@ -1,27 +1,42 @@
 ## MMM-Openhab
 
-Full control of your Openhab System using .
+Full control of your Openhab System using (mouse but that's only the beginning)
 
 ## How it works
 
-The module reads actual result data from the Suntrol Powermanagement tool.
+The module displays all values from your Openhab sitemap. You can also change
+all values and switches (like lites, temperature and s.o.)
+
+After the installation u can find an example of an Openhab2 (version 2.2) modified sitemap file
+using the html and css values fitting for MagicMirror. Copy them to your Openhab2 config dir 
+into html. Now all u have to do is add a line at the beginning of your sitemap:
+
+example:
+
+sitemap MMM label="MMM-Openhab"
+{
+        // Set for MMM-Openhab
+	Webview url="/static/MMM-View.html"
+
+		Text item=haa
+...
+Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants it this way.
 
 * Annotated .css file included for aligning and coloring text and header.
 
 ## Installation
 
-* `git clone https://github.com/tbbear/MMM-Solardach` into the `~/MagicMirror/modules` directory.
+* `git clone https://github.com/tbbear/MMM-Openhab` into the `~/MagicMirror/modules` directory.
 
-* No API key needed! Only a Suntrol Photovoltaic roof!
-
+* No API key needed! Only a running Openhab System.
 ## Config.js entry and options
 
     {
-        module: 'MMM-SolarDach',
-        position: 'top_right',                   // Best in left or right regions
+        module: 'MMM-Openhab',
+        position: 'bottom_right',                   // Best in left or right regions
         config: { 
 		
-		url: "http://xxx.xxx.xxx.xxx/rest/solarworld/lpvm/powerAndBatteryData"   // url of your Suntrol Powermanagement tool
+		url: "http://wr-pi-openhab:8080/basicui/app?sitemap=MMM"   // url of your Openhab sitemap
 	
         }
     },

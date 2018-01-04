@@ -1,19 +1,17 @@
 
 .MMM-Openhab {
-	width: 310px;
-	height: 500px;
+	width: 400px;
+	height: 700px;
 	margin-right: 0px;
 	margin-left: 0px;
+	margin-top: 0px;
 }
 
 .MMM-Openhab .header {
   color: red;               /* Header color. Default is red. */
 }
 
-.MMM-Openhab .iframe {
- 	width: 310px;
-	height: 500px;
-	scrolling: no;
-	frameborder: 0;
-        color: yellow;               /* Line color. Default is yellow. */
+.MMM-Openhab .ifr {
+ 	width: 400px;
+	height: 680px;
 }

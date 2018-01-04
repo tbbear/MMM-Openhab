@@ -1,0 +1,119 @@
+
+/* =================================== HEADER FARBE */
+.mdl-layout__header {
+  background-color: #000000 !important;
+  color: red !important;
+}
+
+.mdl-layout {
+  background-color: #000000 !important;
+}
+
+/* =================================== HINTERGRUND FARBE  */
+
+/*  HINTERGRUND STEUERELEMENTE */
+.page-content {
+  background-color: #000000 !important;
+}
+/*  HINTERGRUND Links/Rechts Wrapper */
+.mdl-color--grey-100 {
+  background-color: #000000 !important;
+}
+
+/* =================================== STEUERELEMENTE LINE-HEIGHT */
+
+/* ZEILENHÖHE */
+html.ui-layout-condensed .mdl-form__row {
+    height: 45px;
+}
+
+/* =================================== STEUERELEMENTE FARBE  */
+
+/* STEUERELEMENTE - HINTERGRUND FARBE  */
+.mdl-color--white {
+    background-color: #000000 !important;
+}
+/* STEUERELEMENTE - TEXT FARBE  */
+.mdl-color-text--grey-700 {
+    color: #f4f00c !important;
+}
+/* STEUERELEMENTE - Zwischenstriche Farbe */
+.mdl-form__row {
+    border-bottom: 1px solid #2d2d2d;
+}
+.mdl-form__label {
+    color: #ffffff !important;
+}
+.mdl-form__control {
+    color: #ffffff !important;
+}
+
+
+/* =================================== SWITCH FARBE OFF */
+
+/* SWITCH Button Farbe */
+.mdl-switch__thumb {
+  background-color: #fff;
+}
+/* SWITCH Button Track */
+.mdl-switch__track {
+    background: #9b4f4f;
+}
+/* SWITCH Button Button-Farbe */
+.mdl-switch__thumb {
+  background: #5b5757;
+}
+
+/* =================================== SWITCH FARBE ON */
+/* SWITCH Button Button-Farbe */
+.mdl-switch.is-checked .mdl-switch__thumb {
+    background: #d8d8d8;
+}
+/* SWITCH Button Track-Farbe*/
+.mdl-switch.is-checked .mdl-switch__track {
+    background: #66d693;
+}
+/* =================================== FRAME Rundungen */
+
+/* Fenster / Abschnitt Rundungen */
+.mdl-form {
+  /*+border-radius: 10px;*/
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* =================================== BUTTON FARBE - OFF */
+
+/* BUTTON SELECTED */
+BUTTON.mdl-button--accent {
+  border: 1px solid #5ddd90;
+  /*+box-shadow: 0px 0px !important;*/
+  /*-moz-box-shadow: 0px 0px !important;
+  -webkit-box-shadow: 0px 0px !important;
+  box-shadow: 0px 0px !important;*/
+  background-color: #333 !important;
+  color: #5ddd90 !important;
+}
+/* =================================== BUTTON FARBE - ON */
+
+/* BUTTON DESELECTED */
+.mdl-form__setpoint BUTTON, .mdl-form__rollerblind BUTTON, .mdl-form__buttons BUTTON {
+  color: white;
+  background-color: #545454;
+  /*+border-radius: 5px;*/
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* =================================== BUTTON FARBE - HOVER */
+
+/* BUTTON HOVER FARBE */
+BUTTON.mdl-button:hover {
+  background-color: #5ddd90;
+}
+
+
