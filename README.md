@@ -15,12 +15,12 @@ into html. Now all u have to do is add a line at the beginning of your sitemap:
 
 example:
 
-sitemap MMM label="MMM-Openhab"
-{
-        // Set for MMM-Openhab
-	Webview url="/static/MMM-View.html"
-	...
-}
+	sitemap MMM label="MMM-Openhab"
+	{
+    	        // Set for MMM-Openhab
+		Webview url="/static/MMM-View.html"
+		...
+	}
 
 Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants it this way.
 
@@ -31,6 +31,8 @@ Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants 
 * git clone https://github.com/tbbear/MMM-Openhab` into the `~/MagicMirror/modules` directory.
 
 * No API key needed! Only a running Openhab System.
+
+* No translation needed cause the sidemap from your own (in your native language written) is displayed
 
 ## Config.js entry and options
 
