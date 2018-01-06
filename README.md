@@ -1,6 +1,8 @@
-## MMM-Openhab
+# MMM-Openhab
 
-Full control of your Openhab System using (touchscreen, mouse or touchpad (but that's only the beginning)
+**Full control of your Openhab System using (touchscreen, mouse or touchpad (but that's only the beginning)**
+
+![](snip1.png)
 
 ## How it works
 
@@ -29,6 +31,7 @@ Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants 
 * `git clone https://github.com/tbbear/MMM-Openhab` into the `~/MagicMirror/modules` directory.
 
 * No API key needed! Only a running Openhab System.
+
 ## Config.js entry and options
 
     {
@@ -41,5 +44,4 @@ Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants 
         }
     },
 	
-
 ## Special thanks to CowboysDude and Mykle1 for teaching me!
