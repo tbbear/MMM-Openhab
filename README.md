@@ -1,6 +1,6 @@
 ## MMM-Openhab
 
-Full control of your Openhab System using (mouse but that's only the beginning)
+Full control of your Openhab System using (touchscreen, mouse or touchpad (but that's only the beginning)
 
 ## How it works
 
