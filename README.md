@@ -19,16 +19,16 @@ sitemap MMM label="MMM-Openhab"
 {
         // Set for MMM-Openhab
 	Webview url="/static/MMM-View.html"
+	...
+}
 
-		Text item=haa
-...
 Dont wonder about the "/static"  this is the same as "/html" but Openhab2 wants it this way.
 
 * Annotated .css file included for aligning and coloring text and header.
 
 ## Installation
 
-* `git clone https://github.com/tbbear/MMM-Openhab` into the `~/MagicMirror/modules` directory.
+* git clone https://github.com/tbbear/MMM-Openhab` into the `~/MagicMirror/modules` directory.
 
 * No API key needed! Only a running Openhab System.
 
